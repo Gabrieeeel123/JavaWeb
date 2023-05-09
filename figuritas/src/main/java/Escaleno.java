@@ -1,11 +1,12 @@
 package java;
+
 public class Escaleno extends Figuras{
     private double ladoA;
 
     private double ladoB;
 
     private double ladoC;
-    
+
     private double area;
 
     private double perimetro;
