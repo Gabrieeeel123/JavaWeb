@@ -1,13 +1,17 @@
 package java;
 public class Escaleno extends Figuras{
     private double ladoA;
+
     private double ladoB;
+
     private double ladoC;
+    
     private double area;
+
     private double perimetro;
 
     public Escaleno(){}
-    
+
     public Escaleno(double ladoA, double ladoB, double ladoC, 
     double area, double perimetro) {
         this.ladoA = ladoA;
