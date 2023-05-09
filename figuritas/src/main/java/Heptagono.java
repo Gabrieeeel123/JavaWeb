@@ -6,7 +6,7 @@ public class Heptagono extends Figuras{
     private double lado;
 
     private double area;
-    
+
     private double perimetro;
     
     public Heptagono(double apotema, double lado, 
@@ -50,6 +50,7 @@ public class Heptagono extends Figuras{
     }
 
     public Heptagono(){}
+    
     @Override
     public void calcularArea() {
         area = ((lado * 7)*Apotema)/2;
