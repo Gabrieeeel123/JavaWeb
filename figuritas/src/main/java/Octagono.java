@@ -1,8 +1,18 @@
+package java;
 
 public  class Octagono extends Figuras{
-    private double Apotema , lado ,area , perimetro;
+    private double Apotema;
+
+    private double lado;
+
+    private double area;
+
+    private double perimetro;
+
     public Octagono(){}
-    public Octagono(double apotema, double lado, double area, double perimetro) {
+
+    public Octagono(double apotema, double lado,
+     double area, double perimetro) {
         Apotema = apotema;
         this.lado = lado;
         this.area = area;
