@@ -1,36 +1,51 @@
+package java;
 
 public class Heptagono extends Figuras{
-    private double Apotema , lado ,area , perimetro;
-    public Heptagono(double apotema, double lado, double area, double perimetro) {
+    private double Apotema;
+    private double lado;
+    private double area;
+    private double perimetro;
+    
+    public Heptagono(double apotema, double lado, 
+    double area, double perimetro) {
         Apotema = apotema;
         this.lado = lado;
         this.area = area;
         this.perimetro = perimetro;
     }
+
     public double getApotema() {
         return Apotema;
     }
+
     public void setApotema(double apotema) {
         Apotema = apotema;
     }
+
     public double getLado() {
         return lado;
     }
+
     public void setLado(double lado) {
         this.lado = lado;
     }
+
     public double getArea() {
         return area;
     }
+
     public void setArea(double area) {
         this.area = area;
     }
+
     public double getPerimetro() {
         return perimetro;
     }
+
     public void setPerimetro(double perimetro) {
         this.perimetro = perimetro;
     }
+    
     public Heptagono(){}
     @Override
     public void calcularArea() {
