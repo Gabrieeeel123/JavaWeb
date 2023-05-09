@@ -1,29 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
+  }
+
+  body {
     font-family: Arial, Helvetica, sans-serif;
-}
-header{
+  }
+
+  header {
     background-color: #f2f2f2;
     text-align: center;
     padding: 25px 0;
-}
-nav a{
+  }
+
+  nav a {
     display: inline-block;
     text-decoration: none;
-    color:  #696969;
+    color: #696969;
     margin: 0 30px;
-    padding:  5px 15px;
+    padding: 5px 15px;
     border-radius: 30px;
-}
-nav a:hover{
+  }
+
+  nav a:hover {
     background-color: black;
     color: #fff;
-}
-.encabezado{
+  }
+  
+  .encabezado {
     background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico_23-2148573776.jpg?w=2000);
     height: 1000px;
     background-size: cover;
@@ -32,37 +37,44 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     color: #fff;
-}
-.encabezado p{
+  }
+
+  .encabezado p {
     font-size: 20px;
     color: black;
-}
-.encabezado h1{
+  }
+
+  .encabezado h1 {
     font-size: 50px;
     padding: 20px;
     color: black;
-}
-.Heptagono{
+  }
+  .Heptagono {
     display: flex;
     justify-content: center;
-}
-.Heptagono img{
-width: 300px;
-height: 300px;
-}
-.Octagono{
-    display: flex;
-    justify-content: center;
-}
-.Octagono img{
+  }
+
+  .Heptagono img {
     width: 300px;
     height: 300px;
-}
-.Escaleno{
+  }
+
+  .Octagono {
     display: flex;
     justify-content: center;
-}
-.Escaleno img{
+  }
+
+  .Octagono img {
     width: 300px;
     height: 300px;
-}
+  }
+
+  .Escaleno {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Escaleno img {
+    width: 300px;
+    height: 300px;
+  }
