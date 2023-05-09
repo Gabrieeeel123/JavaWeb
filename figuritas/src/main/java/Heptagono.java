@@ -2,8 +2,11 @@ package java;
 
 public class Heptagono extends Figuras{
     private double Apotema;
+
     private double lado;
+
     private double area;
+    
     private double perimetro;
     
     public Heptagono(double apotema, double lado, 
@@ -45,7 +48,7 @@ public class Heptagono extends Figuras{
     public void setPerimetro(double perimetro) {
         this.perimetro = perimetro;
     }
-    
+
     public Heptagono(){}
     @Override
     public void calcularArea() {
